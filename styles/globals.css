@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.4rem;
+}
+input {
+  padding: 0.5rem;
+  border: 2px solid lightblue;
+  outline: none;
+}
+label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button {
+  border: none;
+  background-color: lightblue;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  align-self: flex-start !important;
+  transition: 0.3s;
+}
+.left-right {
+  align-self: flex-end !important;
+  transition: 0.3s;
+}
